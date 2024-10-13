@@ -1243,6 +1243,10 @@ input[type="radio"] + label:before {
     width: 100%; }
     .image.main img {
       width: 100%; }
+      .image img {
+        max-height: 900px; /* Limit the height */
+        width: auto; /* Automatically adjust the width to preserve the aspect ratio */
+      }
 
 a.image {
   overflow: hidden; }
