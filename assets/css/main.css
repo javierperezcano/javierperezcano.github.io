@@ -142,7 +142,7 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: 0; }
 
 h1 {
-  font-size: 4em;
+  font-size: 3em;
   margin: 0 0 0.5em 0;
   line-height: 1.3; }
 
@@ -1243,10 +1243,6 @@ input[type="radio"] + label:before {
     width: 100%; }
     .image.main img {
       width: 100%; }
-      .image img {
-        max-height: 900px; /* Limit the height */
-        width: auto; /* Automatically adjust the width to preserve the aspect ratio */
-      }
 
 a.image {
   overflow: hidden; }
